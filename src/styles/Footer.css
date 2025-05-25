@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #000;
+  color: #fff;
+}
+
+.footer-name {
+  font-size: 12rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer-rights {
+  font-size: 1rem;
+  margin: 0;
+}

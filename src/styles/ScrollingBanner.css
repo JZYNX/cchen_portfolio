@@ -1,0 +1,30 @@
+.scrolling-banner {
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  padding: 6rem 5vw;
+  margin-top: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 7vw;
+  font-weight: 200;
+  color: #fff;
+  animation: scroll-loop 18s linear infinite;
+  will-change: transform;
+}
+.scrolling-text-inner {
+  display: inline-block;
+  padding-right: 4vw;
+}
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

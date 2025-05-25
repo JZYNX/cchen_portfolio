@@ -1,0 +1,45 @@
+.intro-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 180px;
+  background: #000;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+.intro-content {
+  margin-left: 13vw;
+  max-width: 50vw;
+  background: #000;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.intro-text {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.intro-linkedin-btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 0.4rem 5em;
+  border-radius: 2rem;
+  text-decoration: none;
+  box-shadow: none;
+  border: 2px solid #fff;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  margin-top: 0.5rem;
+  min-height: unset;
+}
+.intro-linkedin-btn:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-2px) scale(1.04);
+}
